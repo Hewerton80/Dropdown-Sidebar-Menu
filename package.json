@@ -1,0 +1,15 @@
+{
+  "name": "responsive-side-bar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "css": "node-sass --include-path scss scss/app.scss css/app.css",
+    "dev": "nodemon -e scss -x 'npm run css'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
